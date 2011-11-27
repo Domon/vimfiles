@@ -33,3 +33,7 @@ set encoding=utf-8        " encoding used inside Vim
 set fileencoding=utf-8    " encoding for the file of this buffer
 set fileencodings=ucs-bom,utf-8,big5,sjis,euc-jp,latin1    " list of encodings considered when starting to edit an existing file
 set termencoding=utf-8    " encoding used for the terminal (does ot apply to GUIs)
+
+
+" Command-T settings
+let g:CommandTMaxHeight = 15    " the maximum number of lines the match window is allowed to expand to
