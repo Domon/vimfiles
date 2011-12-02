@@ -1,4 +1,7 @@
 if has("gui_macvim")
+  " Hide toolbar
+  set go-=T
+
   " disable the original cmd-t (New Tab)
   macmenu &File.New\ Tab key=<nop>
   " bind cmd-t to :CommandT
