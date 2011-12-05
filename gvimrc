@@ -1,4 +1,8 @@
 if has("gui_macvim")
+  " Theme settings
+  set background=dark
+  colorscheme solarized
+
   " Hide toolbar
   set go-=T
 
