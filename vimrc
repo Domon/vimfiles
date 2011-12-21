@@ -14,6 +14,9 @@ filetype plugin on    " load the plugin files for specific file types
 syntax on             " enable syntax highlighting
 
 set hlsearch          " highlight all matches of the previous search
+set incsearch         " search as you type
+set ignorecase        " ignore case in searches
+set smartcase         " case sensitive if searches contain uppercase letters
 
 set autoread          " automatically read the file again when it has been changed outside of Vim and it has not been changed inside of Vim
 
