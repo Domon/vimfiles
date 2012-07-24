@@ -38,5 +38,13 @@ set fileencodings=ucs-bom,utf-8,big5,sjis,euc-jp,latin1    " list of encodings c
 set termencoding=utf-8    " encoding used for the terminal (does ot apply to GUIs)
 
 
+" Theme settings
+
+set background=dark
+let g:solarized_termcolors=256
+colorscheme solarized
+
+
 " Command-T settings
-let g:CommandTMaxHeight = 15    " the maximum number of lines the match window is allowed to expand to
+
+let g:CommandTMaxHeight=15    " the maximum number of lines the match window is allowed to expand to
