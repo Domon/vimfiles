@@ -30,6 +30,7 @@ Domon's vimfiles.
 * [The NERD tree](https://github.com/scrooloose/nerdtree) - A tree explorer plugin for navigating the filesystem
 * [vim-coffee-script](https://github.com/kchmck/vim-coffee-script) - CoffeeScript support. Live preview with `:CoffeeCompile watch vert`
 * [fugitive.vim](https://github.com/tpope/vim-fugitive/) - A Git wrapper. Give us `:Gstatus`, `:Gcommit`, `:Gblame`, ... and more
+* [endwise.vim](https://github.com/tpope/vim-endwise) - Wisely add `end`s in Ruby
 
 
 ## Usage
