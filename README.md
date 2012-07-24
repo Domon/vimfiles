@@ -29,6 +29,7 @@ Domon's vimfiles.
 * [Solarized](https://github.com/altercation/vim-colors-solarized) - Solarized colorscheme for Vim
 * [The NERD tree](https://github.com/scrooloose/nerdtree) - A tree explorer plugin for navigating the filesystem
 * [vim-coffee-script](https://github.com/kchmck/vim-coffee-script) - CoffeeScript support for Vim
+* [fugitive.vim](https://github.com/tpope/vim-fugitive/) - A Git wrapper. Give us `:Gstatus`, `:Gcommit`, `:Gblame`, ... and more
 
 
 ## Usage
