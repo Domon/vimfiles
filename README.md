@@ -28,7 +28,7 @@ Domon's vimfiles.
 * [ragtag.vim](https://github.com/tpope/vim-ragtag) - Provide easy way to create tags for html, erb, etc
 * [Solarized](https://github.com/altercation/vim-colors-solarized) - Solarized colorscheme for Vim
 * [The NERD tree](https://github.com/scrooloose/nerdtree) - A tree explorer plugin for navigating the filesystem
-* [vim-coffee-script](https://github.com/kchmck/vim-coffee-script) - CoffeeScript support for Vim
+* [vim-coffee-script](https://github.com/kchmck/vim-coffee-script) - CoffeeScript support. Live preview with `:CoffeeCompile watch vert`
 * [fugitive.vim](https://github.com/tpope/vim-fugitive/) - A Git wrapper. Give us `:Gstatus`, `:Gcommit`, `:Gblame`, ... and more
 
 
@@ -43,4 +43,8 @@ Domon's vimfiles.
 
         cd ~/.vim/bundle/<plugin-name>
         git pull
+
+* Update all bundled plugins
+
+        git submodule foreach git pull origin master
 
