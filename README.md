@@ -49,3 +49,7 @@ Domon's vimfiles.
 
         git submodule foreach git pull origin master
 
+## Font
+
+The font I'm using is [Anonymous Pro](http://www.ms-studio.com/FontSales/anonymouspro.html).
+
