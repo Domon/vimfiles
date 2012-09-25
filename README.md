@@ -19,6 +19,7 @@ Domon's vimfiles.
 3. Compile Command-T
 
         $ cd ~/.vim/bundle/command-t
+        $ rvm use system
         $ rake make
 
 ## Bundled plugins
