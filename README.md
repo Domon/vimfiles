@@ -33,7 +33,7 @@ Domon's vimfiles.
 * [Tabular.vim](https://github.com/godlygeek/tabular) - Text alignment. e.g. `:Tab /=` to align `=`s
 * [The NERD tree](https://github.com/scrooloose/nerdtree) - A tree explorer plugin for navigating the filesystem
 * [vim-coffee-script](https://github.com/kchmck/vim-coffee-script) - CoffeeScript support. Live preview with `:CoffeeCompile watch vert`
-
+* [haml.vim](https://github.com/tpope/vim-haml) - Haml, Sass, and SCSS support
 
 ## Usage
 
