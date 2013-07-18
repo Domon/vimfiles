@@ -9,8 +9,10 @@ if has("gui_macvim")
   " Hide toolbar
   set go-=T
 
-  " disable the original cmd-t (New Tab)
-  macmenu &File.New\ Tab key=<nop>
-  " bind cmd-t to :CommandT
+  " Menu settings
+  macmenu File.New\ Window key=<D-N>    " Map Cmd-Shift-n to New Window
+  macmenu File.New\ Tab key=<D-n>       " Map Cmd-n to New Tab
+
+  " Bind Cmd-t to :CommandT
   map <D-t> :CommandT<CR>
 endif
