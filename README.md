@@ -24,17 +24,31 @@ Domon's vimfiles.
 
 ## Bundled plugins
 
-* [bundler.vim](https://github.com/tpope/vim-bundler) - Automatically alter `tags` to include gems from Bundler with [gem-ctags](https://github.com/tpope/gem-ctags)
-* [Command-T](https://github.com/wincent/Command-T) - Go to file through `cmd-t`
-* [endwise.vim](https://github.com/tpope/vim-endwise) - Wisely add `end`s in Ruby
-* [fugitive.vim](https://github.com/tpope/vim-fugitive/) - A Git wrapper. Give us `:Gstatus`, `:Gcommit`, `:Gblame`, ... and more
-* [pathogen.vim](https://github.com/tpope/vim-pathogen) - Install plugins and runtime files in their own private directories
-* [ragtag.vim](https://github.com/tpope/vim-ragtag) - Provide easy way to create tags for html, erb, etc
-* [Solarized](https://github.com/altercation/vim-colors-solarized) - Solarized colorscheme for Vim
-* [Tabular.vim](https://github.com/godlygeek/tabular) - Text alignment. e.g. `:Tab /=` to align `=`s
-* [The NERD tree](https://github.com/scrooloose/nerdtree) - A tree explorer plugin for navigating the filesystem
-* [vim-coffee-script](https://github.com/kchmck/vim-coffee-script) - CoffeeScript support. Live preview with `:CoffeeCompile watch vert`
-* [haml.vim](https://github.com/tpope/vim-haml) - Haml, Sass, and SCSS support
+* [bundler.vim][bundler-vim] - Automatically alter `tags` with [gem-ctags][] to include gems from Bundler 
+* [Command-T][command-t]     - Go to file through `cmd-t`
+* [endwise.vim][endwise]     - Wisely add `end`s in Ruby
+* [fugitive.vim][fugitive]   - A Git wrapper. Give us `:Gstatus`, `:Gcommit`, `:Gblame`, ... and more
+* [haml.vim][haml-vim]       - Haml, Sass, and SCSS support
+* [pathogen.vim][pathogen]   - Install plugins and runtime files in their own private directories
+* [ragtag.vim][ragtag]       - Provide easy way to create tags for html, erb, etc
+* [Solarized][solarized]     - Solarized colorscheme for Vim
+* [Tabular.vim][tabular]     - Text alignment. e.g. `:Tab /=` to align `=`s
+* [The NERD tree][nerd-tree] - A tree explorer plugin for navigating the filesystem
+* [vim-coffee-script][]      - CoffeeScript support. Live preview with `:CoffeeCompile watch vert`
+
+[bundler-vim]: https://github.com/tpope/vim-bundler
+[gem-ctags]: https://github.com/tpope/gem-ctags
+[command-t]: https://github.com/wincent/Command-T
+[endwise]: https://github.com/tpope/vim-endwise
+[fugitive]: https://github.com/tpope/vim-fugitive/
+[haml-vim]: https://github.com/tpope/vim-haml
+[pathogen]: https://github.com/tpope/vim-pathogen
+[ragtag]: https://github.com/tpope/vim-ragtag
+[solarized]: https://github.com/altercation/vim-colors-solarized
+[tabular]: https://github.com/godlygeek/tabular
+[nerd-tree]: https://github.com/scrooloose/nerdtree
+[vim-coffee-script]: https://github.com/kchmck/vim-coffee-script
+
 
 ## Usage
 
