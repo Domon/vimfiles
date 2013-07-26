@@ -24,6 +24,7 @@ Domon's vimfiles.
 
 ## Bundled plugins
 
+* [bundler.vim](https://github.com/tpope/vim-bundler) - Automatically alter `tags` to include gems from Bundler with [gem-ctags](https://github.com/tpope/gem-ctags)
 * [Command-T](https://github.com/wincent/Command-T) - Go to file through `cmd-t`
 * [endwise.vim](https://github.com/tpope/vim-endwise) - Wisely add `end`s in Ruby
 * [fugitive.vim](https://github.com/tpope/vim-fugitive/) - A Git wrapper. Give us `:Gstatus`, `:Gcommit`, `:Gblame`, ... and more
