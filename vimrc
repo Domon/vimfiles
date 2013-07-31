@@ -50,6 +50,11 @@ set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
 
+"
+" Key maps
+"
+" Clear search highlights when hitting Enter
+nnoremap <cr> :nohlsearch<cr>
 
 "
 " Command-T
