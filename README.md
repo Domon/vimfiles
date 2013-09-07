@@ -29,6 +29,7 @@ Domon's vimfiles.
 * [endwise.vim][endwise]     - Wisely add `end`s in Ruby
 * [fugitive.vim][fugitive]   - A Git wrapper. Give us `:Gstatus`, `:Gcommit`, `:Gblame`, ... and more
 * [haml.vim][haml-vim]       - Haml, Sass, and SCSS support
+* [markdown.vim][markdown]   - Syntax highlighting for Markdown
 * [pathogen.vim][pathogen]   - Install plugins and runtime files in their own private directories
 * [ragtag.vim][ragtag]       - Provide easy way to create tags for html, erb, etc
 * [Solarized][solarized]     - Solarized colorscheme for Vim
@@ -42,6 +43,7 @@ Domon's vimfiles.
 [endwise]: https://github.com/tpope/vim-endwise
 [fugitive]: https://github.com/tpope/vim-fugitive/
 [haml-vim]: https://github.com/tpope/vim-haml
+[markdown]: https://github.com/tpope/vim-markdown
 [pathogen]: https://github.com/tpope/vim-pathogen
 [ragtag]: https://github.com/tpope/vim-ragtag
 [solarized]: https://github.com/altercation/vim-colors-solarized
