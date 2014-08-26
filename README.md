@@ -32,6 +32,7 @@ Domon's vimfiles.
 * [markdown.vim][markdown]   - Syntax highlighting for Markdown
 * [pathogen.vim][pathogen]   - Install plugins and runtime files in their own private directories
 * [ragtag.vim][ragtag]       - Provide easy way to create tags for html, erb, etc
+* [rails.vim][rails]         - Enhanced syntax highlighting, `gf`, `:Rextract`, ... and more
 * [Solarized][solarized]     - Solarized colorscheme for Vim
 * [Tabular.vim][tabular]     - Text alignment. e.g. `:Tab /=` to align `=`s
 * [The NERD tree][nerd-tree] - A tree explorer plugin for navigating the filesystem
@@ -46,6 +47,7 @@ Domon's vimfiles.
 [markdown]: https://github.com/tpope/vim-markdown
 [pathogen]: https://github.com/tpope/vim-pathogen
 [ragtag]: https://github.com/tpope/vim-ragtag
+[rails]: https://github.com/tpope/vim-rails
 [solarized]: https://github.com/altercation/vim-colors-solarized
 [tabular]: https://github.com/godlygeek/tabular
 [nerd-tree]: https://github.com/scrooloose/nerdtree
