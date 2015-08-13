@@ -37,6 +37,7 @@ Domon's vimfiles.
 * [Tabular.vim][tabular]     - Text alignment. e.g. `:Tab /=` to align `=`s
 * [The NERD tree][nerd-tree] - A tree explorer plugin for navigating the filesystem
 * [vim-coffee-script][]      - CoffeeScript support. Live preview with `:CoffeeCompile watch vert`
+* [vim-cjsx][]               - CJSX syntax highlighting and indenting..
 
 [bundler-vim]: https://github.com/tpope/vim-bundler
 [gem-ctags]: https://github.com/tpope/gem-ctags
@@ -52,6 +53,7 @@ Domon's vimfiles.
 [tabular]: https://github.com/godlygeek/tabular
 [nerd-tree]: https://github.com/scrooloose/nerdtree
 [vim-coffee-script]: https://github.com/kchmck/vim-coffee-script
+[vim-cjsx]: https://github.com/mtscout6/vim-cjsx
 
 
 ## Usage
