@@ -51,6 +51,7 @@
 [tabular]: https://github.com/godlygeek/tabular
 [nerd-tree]: https://github.com/scrooloose/nerdtree
 [vim-coffee-script]: https://github.com/kchmck/vim-coffee-script
+[vim-ruby]: https://github.com/vim-ruby/vim-ruby
 
 
 ## Usage
