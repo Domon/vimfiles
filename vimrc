@@ -58,6 +58,11 @@ nnoremap <cr> :nohlsearch<cr>
 nnoremap <Tab> :NERDTreeToggle<cr>
 
 "
+" Matchit
+"
+runtime macros/matchit.vim    " enable it so that % works in Ruby files
+
+"
 " Command-T
 "
 let g:CommandTMaxHeight=15    " the maximum number of lines the match window is allowed to expand to
