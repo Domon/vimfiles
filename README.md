@@ -1,7 +1,4 @@
-# Domon/vimfiles
-
-Domon's vimfiles.
-
+# Domon's vimfiles
 
 ## Installation
 
@@ -21,6 +18,7 @@ Domon's vimfiles.
         $ cd ~/.vim/bundle/command-t
         $ rbenv shell system
         $ command rake make
+
 
 ## Bundled plugins
 
@@ -72,6 +70,7 @@ Domon's vimfiles.
 * Update all bundled plugins
 
         git submodule foreach git pull origin master
+
 
 ## Font
 
