@@ -55,6 +55,7 @@ colorscheme solarized
 "
 " Clear search highlights when hitting Enter
 nnoremap <cr> :nohlsearch<cr>
+nnoremap <Tab> :NERDTreeToggle<cr>
 
 "
 " Command-T
