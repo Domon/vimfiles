@@ -23,6 +23,7 @@
 ## Bundled plugins
 
 * [bundler.vim][bundler-vim] - Automatically alter `tags` with [gem-ctags][] to include gems from Bundler 
+* [csv.vim][csv-vim]         - Make CSV files easier to read and modify
 * [Command-T][command-t]     - Go to file through `cmd-t`
 * [endwise.vim][endwise]     - Wisely add `end`s in Ruby
 * [fugitive.vim][fugitive]   - A Git wrapper. Give us `:Gstatus`, `:Gcommit`, `:Gblame`, ... and more
@@ -34,16 +35,17 @@
 * [Solarized][solarized]     - Solarized colorscheme for Vim
 * [Tabular.vim][tabular]     - Text alignment. e.g. `:Tab /=` to align `=`s
 * [The NERD tree][nerd-tree] - A tree explorer plugin for navigating the filesystem
-* [vim-airline][]            - Statusline
+* [vim-airline][]            - A fancy statusline
 * [vim-airline-themes][]     - Themes for [vim-airline][]
 * [vim-coffee-script][]      - CoffeeScript support. Live preview with `:CoffeeCompile watch vert`
 * [vim-ruby][]               - Ruby syntax highlighting and indenting
 
 [bundler-vim]: https://github.com/tpope/vim-bundler
-[gem-ctags]: https://github.com/tpope/gem-ctags
 [command-t]: https://github.com/wincent/Command-T
+[csv-vim]: https://github.com/chrisbra/csv.vim
 [endwise]: https://github.com/tpope/vim-endwise
 [fugitive]: https://github.com/tpope/vim-fugitive/
+[gem-ctags]: https://github.com/tpope/gem-ctags
 [haml-vim]: https://github.com/tpope/vim-haml
 [markdown]: https://github.com/tpope/vim-markdown
 [pathogen]: https://github.com/tpope/vim-pathogen
@@ -52,10 +54,10 @@
 [solarized]: https://github.com/altercation/vim-colors-solarized
 [tabular]: https://github.com/godlygeek/tabular
 [nerd-tree]: https://github.com/scrooloose/nerdtree
-[vim-coffee-script]: https://github.com/kchmck/vim-coffee-script
-[vim-ruby]: https://github.com/vim-ruby/vim-ruby
 [vim-airline]: https://github.com/vim-airline/vim-airline
 [vim-airline-themes]: https://github.com/vim-airline/vim-airline-themes
+[vim-coffee-script]: https://github.com/kchmck/vim-coffee-script
+[vim-ruby]: https://github.com/vim-ruby/vim-ruby
 
 
 ## Usage
