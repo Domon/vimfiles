@@ -34,6 +34,8 @@
 * [Solarized][solarized]     - Solarized colorscheme for Vim
 * [Tabular.vim][tabular]     - Text alignment. e.g. `:Tab /=` to align `=`s
 * [The NERD tree][nerd-tree] - A tree explorer plugin for navigating the filesystem
+* [vim-airline][]            - Statusline
+* [vim-airline-themes][]     - Themes for [vim-airline][]
 * [vim-coffee-script][]      - CoffeeScript support. Live preview with `:CoffeeCompile watch vert`
 * [vim-ruby][]               - Ruby syntax highlighting and indenting
 
@@ -52,6 +54,8 @@
 [nerd-tree]: https://github.com/scrooloose/nerdtree
 [vim-coffee-script]: https://github.com/kchmck/vim-coffee-script
 [vim-ruby]: https://github.com/vim-ruby/vim-ruby
+[vim-airline]: https://github.com/vim-airline/vim-airline
+[vim-airline-themes]: https://github.com/vim-airline/vim-airline-themes
 
 
 ## Usage
