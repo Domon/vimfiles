@@ -61,6 +61,13 @@
 [vim-ruby]: https://github.com/vim-ruby/vim-ruby
 
 
+## Not bundled plugins
+
+* [syntastic][] - It makes saving and quitting longer. There could be some way to prevent it but I have given up.
+
+[syntastic]: https://github.com/vim-syntastic/syntastic
+
+
 ## Usage
 
 * Install a new plugin
