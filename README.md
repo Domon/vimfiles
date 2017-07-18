@@ -75,6 +75,11 @@
         cd ~/.vim
         git submodule add <plugin-repository-url> bundle/<plugin-name>
 
+
+* Fetch all bundled plugins
+
+        git submodule update --init
+
 * Update a bundled plugin
 
         cd ~/.vim/bundle/<plugin-name>
@@ -82,7 +87,7 @@
 
 * Update all bundled plugins
 
-        git submodule foreach git pull origin master
+        git submodule update --remote
 
 
 ## Font
