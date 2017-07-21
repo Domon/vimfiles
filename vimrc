@@ -66,3 +66,9 @@ runtime macros/matchit.vim    " enable it so that % works in Ruby files
 " Command-T
 "
 let g:CommandTMaxHeight=15    " the maximum number of lines the match window is allowed to expand to
+
+"
+" CSV
+"
+let b:csv_arrange_align = 'l*'    " left align all columns
+let g:csv_autocmd_arrange = 1     " Automatically align after reading file and un-align before writing
