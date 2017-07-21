@@ -39,6 +39,7 @@
 * [vim-airline][]            - A fancy statusline
 * [vim-airline-themes][]     - Themes for [vim-airline][]
 * [vim-coffee-script][]      - CoffeeScript support. Live preview with `:CoffeeCompile watch vert`
+* [vim-rspec][]              - Running RSpec specs from Vim
 * [vim-ruby][]               - Ruby syntax highlighting and indenting
 
 [bundler-vim]: https://github.com/tpope/vim-bundler
@@ -58,6 +59,7 @@
 [vim-airline]: https://github.com/vim-airline/vim-airline
 [vim-airline-themes]: https://github.com/vim-airline/vim-airline-themes
 [vim-coffee-script]: https://github.com/kchmck/vim-coffee-script
+[vim-rspec]: https://github.com/thoughtbot/vim-rspec
 [vim-ruby]: https://github.com/vim-ruby/vim-ruby
 
 
