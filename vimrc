@@ -53,6 +53,7 @@ colorscheme solarized
 "
 " Key maps
 "
+let mapleader="\<Space>"
 " Clear search highlights when hitting Enter
 nnoremap <cr> :nohlsearch<cr>
 nnoremap <Tab> :NERDTreeToggle<cr>
@@ -70,5 +71,6 @@ let g:CommandTMaxHeight=15    " the maximum number of lines the match window is 
 "
 " CSV
 "
-let b:csv_arrange_align = 'l*'    " left align all columns
-let g:csv_autocmd_arrange = 1     " Automatically align after reading file and un-align before writing
+let b:csv_arrange_align = 'l*'               " left align all columns
+let g:csv_autocmd_arrange = 1                " automatically align after reading file and un-align before writing
+let g:csv_autocmd_arrange_size = 512 * 1024 " only automatically align files smaller than 512K
