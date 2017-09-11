@@ -52,3 +52,6 @@
 [submodule "bundle/vim-rspec"]
 	path = bundle/vim-rspec
 	url = git://github.com/thoughtbot/vim-rspec.git
+[submodule "bundle/vim-gnupg"]
+	path = bundle/vim-gnupg
+	url = git@github.com:jamessan/vim-gnupg.git
