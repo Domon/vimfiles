@@ -79,19 +79,18 @@
         cd ~/.vim
         git submodule add <plugin-repository-url> bundle/<plugin-name>
 
-
 * Fetch all bundled plugins
 
-        git submodule update --init
+        rake install
+
+* Update all bundled plugins
+
+        rake update
 
 * Update a bundled plugin
 
         cd ~/.vim/bundle/<plugin-name>
         git pull
-
-* Update all bundled plugins
-
-        git submodule update --remote
 
 
 ## Font
