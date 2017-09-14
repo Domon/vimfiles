@@ -55,3 +55,6 @@
 [submodule "bundle/vim-gnupg"]
 	path = bundle/vim-gnupg
 	url = git@github.com:jamessan/vim-gnupg.git
+[submodule "bundle/vim-fish"]
+	path = bundle/vim-fish
+	url = git://github.com/dag/vim-fish.git
