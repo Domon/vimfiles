@@ -58,3 +58,6 @@
 [submodule "bundle/vim-fish"]
 	path = bundle/vim-fish
 	url = git://github.com/dag/vim-fish.git
+[submodule "bundle/ale"]
+	path = bundle/ale
+	url = git://github.com/w0rp/ale.git

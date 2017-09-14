@@ -23,6 +23,7 @@
 
 ## Bundled plugins
 
+* [ALE][ale]                 - Check syntax / style asynchronously
 * [bundler.vim][bundler-vim] - Automatically alter `tags` with [gem-ctags][] to include gems from Bundler 
 * [csv.vim][csv-vim]         - Make CSV files easier to read and modify
 * [Command-T][command-t]     - Go to file through `cmd-t`
@@ -44,6 +45,7 @@
 * [vim-rspec][]              - Running RSpec specs from Vim
 * [vim-ruby][]               - Ruby syntax highlighting and indenting
 
+[ale]: https://github.com/w0rp/ale
 [bundler-vim]: https://github.com/tpope/vim-bundler
 [command-t]: https://github.com/wincent/Command-T
 [csv-vim]: https://github.com/chrisbra/csv.vim
