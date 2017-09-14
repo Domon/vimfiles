@@ -85,6 +85,10 @@
 
         rake install
 
+* Build all bundled plugins
+
+        rake build
+
 * Update all bundled plugins
 
         rake update
