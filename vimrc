@@ -64,6 +64,11 @@ let g:CommandTMaxHeight=15    " the maximum number of lines the match window is 
 let g:CommandTMatchWindowReverse=0 " show the best match at the top
 
 "
+" fugitive.vim
+"
+nnoremap <Leader>gb :Gblame<cr>
+
+"
 " CSV
 "
 let b:csv_arrange_align = 'l*'               " left align all columns
