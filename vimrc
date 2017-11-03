@@ -56,12 +56,6 @@ colorscheme solarized
 let mapleader="\<Space>"
 " Clear search highlights when hitting Enter
 nnoremap <cr> :nohlsearch<cr>
-nnoremap <Tab> :NERDTreeToggle<cr>
-
-"
-" Matchit
-"
-runtime macros/matchit.vim    " enable it so that % works in Ruby files
 
 "
 " Command-T
@@ -75,3 +69,13 @@ let g:CommandTMatchWindowReverse=0 " show the best match at the top
 let b:csv_arrange_align = 'l*'               " left align all columns
 let g:csv_autocmd_arrange = 1                " automatically align after reading file and un-align before writing
 let g:csv_autocmd_arrange_size = 512 * 1024 " only automatically align files smaller than 512K
+
+"
+" Matchit
+"
+runtime macros/matchit.vim    " enable it so that % works in Ruby files
+
+"
+" NERD Tree
+"
+nnoremap <Tab> :NERDTreeToggle<cr>
