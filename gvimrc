@@ -14,10 +14,11 @@ if has("gui_macvim")
   macmenu File.New\ Window key=<D-N>    " Map Cmd-Shift-n to New Window
   macmenu File.New\ Tab key=<D-n>       " Map Cmd-n to New Tab
 
-  " Bind Cmd-t to :CommandT
+  " Find files / tags with Cmd-T/Cmd-R
   map <D-t> :CommandT<CR>
+  map <D-r> :CommandTTag<CR>
 
-  " Go to the next/previous tab with Ctrl-Tab and Ctrl-Shift-Tab
+  " Go to the next / previous tab with Ctrl-Tab / Ctrl-Shift-Tab
   nnoremap <C-Tab> :tabnext<CR>
   nnoremap <C-S-Tab> :tabprev<CR>
 
