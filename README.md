@@ -34,6 +34,7 @@
 * [vim-airline][]            - A fancy statusline
 * [vim-airline-themes][]     - Themes for [vim-airline][]
 * [vim-coffee-script][]      - CoffeeScript support. Live preview with `:CoffeeCompile watch vert`
+* [vim-commentary][]         - `gcc` to comment out current line and `gc` to comment out a target
 * [vim-fish][]               - Fish syntax highlighting and indenting
 * [vim-gnupg][]              - Decrypt/encrypt automatically when opening/closing GPG encrypted files
 * [vim-rspec][]              - Running RSpec specs from Vim
@@ -57,6 +58,7 @@
 [vim-airline]: https://github.com/vim-airline/vim-airline
 [vim-airline-themes]: https://github.com/vim-airline/vim-airline-themes
 [vim-coffee-script]: https://github.com/kchmck/vim-coffee-script
+[vim-commentary]: https://github.com/tpope/vim-commentary
 [vim-fish]: https://github.com/dag/vim-fish
 [vim-gnupg]: https://github.com/jamessan/vim-gnupg
 [vim-rspec]: https://github.com/thoughtbot/vim-rspec
