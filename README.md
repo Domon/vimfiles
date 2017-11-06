@@ -13,10 +13,7 @@
 
 3. Compile Command-T
 
-        $ cd ~/.vim/bundle/command-t
-        $ rbenv shell system
-        $ command rake make
-
+        $ rake build
 
 ## Bundled plugins
 

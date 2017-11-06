@@ -9,7 +9,7 @@ end
 
 desc 'Build all plugins'
 task :build do
-  system(*%w[pushd; rbenv shell system; command rake make; popd])
+  `pushd bundle/command-t; /usr/bin/rake make; popd`
 end
 
 desc 'Update all plugins'
