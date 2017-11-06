@@ -1,6 +1,10 @@
 desc 'Fetch all plugins'
 task :install do
-  system(*%w[git submodule update --init])
+  `git submodule update --init`
+
+  `ln -sv ~/.vim/vimrc ~/.vimrc`
+  `ln -sv ~/.vim/gvimrc ~/.gvimrc`
+  `ln -sv ~/.vim/ideavimrc ~/.ideavimrc`
 end
 
 desc 'Build all plugins'

@@ -4,15 +4,12 @@
 
 1. Clone the files
 
-        git clone git://github.com/Domon/vimfiles.git ~/.vim
-        cd ~/.vim
-        git submodule update --init
+        $ git clone git@github.com:Domon/vimfiles.git ~/.vim
+        $ cd ~/.vim
 
-2. Install ~/.vimrc
+2. Fetch plugins and install configuration files
 
-        ln -s ~/.vim/vimrc ~/.vimrc
-        ln -s ~/.vim/gvimrc ~/.gvimrc
-        ln -s ~/.vim/ideavimrc ~/.ideavimrc
+        $ rake install
 
 3. Compile Command-T
 
