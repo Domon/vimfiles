@@ -84,3 +84,11 @@ runtime macros/matchit.vim    " enable it so that % works in Ruby files
 " NERD Tree
 "
 nnoremap <Tab> :NERDTreeToggle<cr>
+
+"
+" Tabular
+"
+nnoremap <Leader>a= :Tabularize /=<cr>
+vnoremap <Leader>a= :Tabularize /=<cr>
+nnoremap <Leader>a: :Tabularize /:\zs<cr>
+vnoremap <Leader>a: :Tabularize /:\zs<cr>
