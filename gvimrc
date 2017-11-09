@@ -18,6 +18,10 @@ if has("gui_macvim")
   nnoremap <D-t> :CommandT<CR>
   nnoremap <D-r> :CommandTTag<CR>
 
+  " Move tabs to the left / right with Cmd-Left / Cmd-Right
+  nnoremap <D-Left>  :-tabmove<cr>
+  nnoremap <D-Right> :+tabmove<cr>
+
   " Go to the next / previous tab with Ctrl-Tab / Ctrl-Shift-Tab
   nnoremap <C-Tab> :tabnext<CR>
   nnoremap <C-S-Tab> :tabprev<CR>
