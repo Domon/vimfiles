@@ -36,6 +36,7 @@
 * [vim-coffee-script][]      - CoffeeScript support. Live preview with `:CoffeeCompile watch vert`
 * [vim-commentary][]         - `gcc` to comment out current line and `gc` to comment out a target
 * [vim-fish][]               - Fish syntax highlighting and indenting
+* [vim-flake8][]             - Check Python syntax and style with `flake8`
 * [vim-gnupg][]              - Decrypt/encrypt automatically when opening/closing GPG encrypted files
 * [vim-rhubarb][]            - Open current file in Github with `:Gbrowse`
 * [vim-rspec][]              - Running RSpec specs from Vim
@@ -61,6 +62,7 @@
 [vim-coffee-script]: https://github.com/kchmck/vim-coffee-script
 [vim-commentary]: https://github.com/tpope/vim-commentary
 [vim-fish]: https://github.com/dag/vim-fish
+[vim-flake8]: https://github.com/nvie/vim-flake8
 [vim-gnupg]: https://github.com/jamessan/vim-gnupg
 [vim-rhubarb]: https://github.com/tpope/vim-rhubarb
 [vim-rspec]: https://github.com/thoughtbot/vim-rspec
