@@ -12,7 +12,7 @@ end
 
 desc 'Build all plugins'
 task :build do
-  `pushd bundle/command-t; /usr/bin/rake make; popd`
+  `pushd bundle/command-t; /usr/local/opt/ruby/bin/rake make; popd`
 end
 
 desc 'Update all plugins'
