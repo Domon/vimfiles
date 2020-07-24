@@ -60,8 +60,9 @@ nnoremap <cr> :nohlsearch<cr>
 "
 " Command-T
 "
-let g:CommandTMaxHeight=15    " the maximum number of lines the match window is allowed to expand to
+let g:CommandTMaxHeight=15         " the maximum number of lines the match window is allowed to expand to
 let g:CommandTMatchWindowReverse=0 " show the best match at the top
+let g:CommandTScanDotDirectories=1 " scan dot-directories
 
 "
 " fugitive.vim
