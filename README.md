@@ -78,28 +78,33 @@
 
 ## Usage
 
-* Install a new plugin
+Install a new plugin:
 
-        cd ~/.vim
-        git submodule add <plugin-repository-url> bundle/<plugin-name>
+    cd ~/.vim
+    git submodule add <plugin-repository-url> bundle/<plugin-name>
 
-* Fetch all bundled plugins
+Fetch all bundled plugins:
 
-        rake install
+    rake install
 
-* Build all bundled plugins
+Build all bundled plugins:
 
-        rake build
+    rake build
 
-* Update all bundled plugins
+Update all bundled plugins:
 
-        rake update
+    rake update
 
-* Update a bundled plugin
+Update a bundled plugin:
 
-        cd ~/.vim/bundle/<plugin-name>
-        git pull
+    cd ~/.vim/bundle/<plugin-name>
+    git pull
 
+Remove a bundled plugin:
+
+    git rm bundle/<plugin-name>
+    rm -rf .git/modules/bundle/<plugin-name>
+    git config --remove-section submodule.bundle/<plugin-name>
 
 ## Font
 
