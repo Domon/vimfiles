@@ -100,6 +100,10 @@ Update a bundled plugin:
     cd ~/.vim/bundle/<plugin-name>
     git pull
 
+Change the URL of a bundled plugin:
+
+    git submodule set-url bundle/<plugin-name> <plugin-repository-url>
+
 Remove a bundled plugin:
 
     git rm bundle/<plugin-name>
