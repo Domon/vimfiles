@@ -69,7 +69,7 @@ let g:CommandTWildIgnore=".bundle,.git,node_modules" " override Vim's wildignore
 "
 " fugitive.vim
 "
-nnoremap <Leader>gb :Gblame<cr>
+nnoremap <Leader>gb :Git blame<cr>
 
 "
 " CSV
