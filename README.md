@@ -42,12 +42,12 @@
 * [vim-rspec][]              - Running RSpec specs from Vim
 * [vim-ruby][]               - Ruby syntax highlighting and indenting
 
-[ale]: https://github.com/w0rp/ale
+[ale]: https://github.com/dense-analysis/ale
 [bundler-vim]: https://github.com/tpope/vim-bundler
-[command-t]: https://github.com/wincent/Command-T
+[command-t]: https://github.com/wincent/command-t
 [csv-vim]: https://github.com/chrisbra/csv.vim
 [endwise]: https://github.com/tpope/vim-endwise
-[fugitive]: https://github.com/tpope/vim-fugitive/
+[fugitive]: https://github.com/tpope/vim-fugitive
 [gem-ctags]: https://github.com/tpope/gem-ctags
 [haml-vim]: https://github.com/tpope/vim-haml
 [markdown]: https://github.com/tpope/vim-markdown
@@ -71,7 +71,7 @@
 
 ## Not bundled plugins
 
-* [syntastic][] - It makes saving and quitting longer. There could be some way to prevent it but I have given up.
+* [syntastic][] - It makes saving and quitting longer. There could be some way to mitigate but I have given up.
 
 [syntastic]: https://github.com/vim-syntastic/syntastic
 
