@@ -12,7 +12,7 @@ end
 
 desc 'Build all plugins'
 task :build do
-  `pushd bundle/command-t; $(brew --prefix ruby)/bin/rake make; popd`
+  `pushd bundle/command-t/ruby/command-t/ext/command-t; make clean; $(brew --prefix ruby)/bin/ruby extconf.rb && make; popd`
 end
 
 desc 'Update all plugins'
