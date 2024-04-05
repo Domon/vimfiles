@@ -6,8 +6,8 @@ task :install do
   `ln -sv ~/.vim/gvimrc ~/.gvimrc`
   `ln -sv ~/.vim/ideavimrc ~/.ideavimrc`
 
-  `mkdir -p ~/.config/nvim`
-  `ln -sv ~/.vim/nvim ~/.config/nvim/init.vim`
+  # `mkdir -p ~/.config/nvim`
+  # `ln -sv ~/.vim/nvim ~/.config/nvim/init.vim`
 end
 
 desc 'Build all plugins'
