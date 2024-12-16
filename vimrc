@@ -66,6 +66,7 @@ let g:CommandTScanDotDirectories=1                   " scan dot-directories
 let g:CommandTAlwaysShowDotFiles=1                   " show dot-files in the search result
 let g:CommandTWildIgnore=".bundle,.git,node_modules" " override Vim's wildignore
 let g:CommandTPreferredImplementation='ruby'         " stick to the Ruby implementation for now
+nnoremap <Leader><Space> :CommandT<CR>
 
 "
 " fugitive.vim
