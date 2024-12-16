@@ -1,6 +1,6 @@
 if has("gui_macvim")
   " Font settings
-  set guifont=Anonymous\ Pro:h18
+  set guifont=AnonymicePro\ Nerd\ Font\ Mono:h18
   set linespace=3
 
   " Theme settings

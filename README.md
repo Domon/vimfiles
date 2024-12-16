@@ -2,18 +2,33 @@
 
 ## Installation
 
-1. Clone the files
+0. Install Anonymice Nerd Font
 
-        $ git clone git@github.com:Domon/vimfiles.git ~/.vim
-        $ cd ~/.vim
+    ```sh
+    brew install font-anonymice-nerd-font
+    ```
+
+1. Clone the files:
+
+    ```sh
+    git clone git@github.com:Domon/vimfiles.git ~/.vim
+    ```
 
 2. Fetch plugins and install configuration files
 
-        $ rake install
+    ```sh
+    cd ~/.vim
+    ```
+
+    ```sh
+    rake install
+    ```
 
 3. Compile Command-T
 
-        $ rake build
+    ```sh
+    rake build
+    ```
 
 ## Bundled plugins
 
@@ -109,8 +124,3 @@ Remove a bundled plugin:
     git rm bundle/<plugin-name>
     rm -rf .git/modules/bundle/<plugin-name>
     git config --remove-section submodule.bundle/<plugin-name>
-
-## Font
-
-The font I'm using is [Anonymous Pro](http://www.ms-studio.com/FontSales/anonymouspro.html).
-
